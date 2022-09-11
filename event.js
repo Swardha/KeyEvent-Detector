@@ -6,6 +6,6 @@ const para = document.querySelector("#key");
 window.addEventListener('keydown', (e)=>{
     para.innerHTML = 
     `<p> You have pressed:
-    <span id="key">${e.key}</span></p>`;
+    ${e.key}</p>`;
 
 })
